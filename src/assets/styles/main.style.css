@@ -1,11 +1,15 @@
 @import 'base/_base.css';
 @import 'base/_variables.css';
+@import 'modules/_form.css';
 @import 'modules/_title.css';
 @import 'modules/_menu.css';
 @import 'modules/_page-section.css';
 @import 'modules/_navigation.css';
 @import 'modules/_list-menu.css';
 @import 'modules/_experience.css';
+@import 'modules/_reservation.css';
+@import 'modules/_location.css';
+
 .app__background{
 	&:before{
 		content: ' ';
@@ -23,4 +27,5 @@
 };
 }
 /*linear-gradient(to top, rgba(0,0,0,0.4) 0%,rgba(0,0,0,0) 100%),*/
+
 

@@ -1,18 +1,22 @@
 <template>
 	<div class="title">
-		<div class="title__intro">
-			<div class="title__intro__main">
-				<h1>Welcome To Peach</h1>	
+		<transition enter-active-class="animated fadeIn" appear>
+			<div class="title__intro">
+				<div class="title__intro__main">
+					<h1>Welcome To Peach</h1>	
+				</div>
+				<div class="title__intro__caption">
+					So Tasty and Delecious
+				</div>
+				<div class="title__intro__subtitle">
+					Begin your journey with beautiful taste
+					<router-link tag="button"
+								:to="{name:'menu'}"
+								class="title__intro__subtitle--button">Start Journey</router-link>
+					
+				</div>
 			</div>
-			<div class="title__intro__caption">
-				So Tasty and Delecious
-			</div>
-			<div class="title__intro__subtitle">
-				Begin your journey with beautiful taste
-				<button class="title__intro__subtitle--button">Start Journey</button>
-			</div>
-			
-		</div>
+		</transition>
 		
 	</div>
 </template>

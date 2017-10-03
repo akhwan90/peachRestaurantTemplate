@@ -1,0 +1,28 @@
+.location{
+	padding: 30px;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-direction: column;
+
+	&__address{
+		margin-top: 50px;
+		font-family: 'Roboto', sans-serif;
+		color: var(--color-pallete);
+		h3{
+			font-size: 2em;
+		}
+		p{
+			font-size: 1.3em;
+		}
+	}
+
+	&__map{
+		width: 30em;
+		height: 20em;
+		background-color: color(#e8e8e8 blackness(80%));
+		border-radius: 8px;
+	}
+	
+}

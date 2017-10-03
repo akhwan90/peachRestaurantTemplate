@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+/*font-family: 'Pacifico', cursive;*/
+*{
+	margin:0;
+	padding: 0;
+}
+
+.grid__2{
+	width: 20%;
+}
+.grid__3{
+	width: 30%
+}
+.grid__7{
+	width: 70%;
+}
+.grid__8{
+	width: 80%;
+}
+

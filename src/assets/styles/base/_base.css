@@ -19,9 +19,13 @@ ul{
 li{
 	display: block;
 }
-
+a{
+	text-decoration: none;
+}
 @define-mixin atMedium{
-	@media screen and (min-width: 800px){
+	@media screen and (min-width: 50em){
 		@mixin-content;
 	};
 }
+
+

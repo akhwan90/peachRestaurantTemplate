@@ -1,3 +1,6 @@
-@custom-media --small-viewport (max-width: 30em);
-@custom-media --medium-viewport (max-width: 48em);
-@custom-media --large-viewport (min-width: 70em);
+@custom-media --smaller-viewport (min-width:28.43755em); /*455*/
+@custom-media --small-viewport (min-width: 39.375em); /*624pc*/
+@custom-media --medium-viewport (min-width: 44.8755em); /*670*/
+@custom-media --large-viewport (min-width: 54.375em);
+
+

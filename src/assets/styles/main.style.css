@@ -8,6 +8,10 @@
 @import 'modules/_btn.css';
 @import 'modules/_menu.css';
 @import 'modules/_list-menu.css';
+@import 'modules/_experience.css';
+@import 'modules/_navigation.css';
+@import 'modules/_form.css';
+@import 'modules/_reservation.css';
 
 
 /*@import 'modules/_form.css';
@@ -21,7 +25,7 @@
 @import 'modules/_location.css';*/
 
 .app__background{
-
+	height: 100vh;
 	&:before{
 		content: ' ';
 		display: block;

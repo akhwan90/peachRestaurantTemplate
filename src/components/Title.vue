@@ -10,7 +10,9 @@
 				</div>
 				<div class="title__intro__subtitle">
 					Begin your journey with beautiful taste
-					<button class="btn btn--journey">Start Journery</button>
+					<router-link tag="button"
+								 :to="{name:'menu'}"
+								 class="btn btn--journey">Start Journey</router-link>
 				</div>
 			</div>
 		</transition>

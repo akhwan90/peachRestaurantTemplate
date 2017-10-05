@@ -1,0 +1,35 @@
+.reservation{
+	padding-top:10px;
+
+	&__fill{
+		max-width: 650px;
+		width: 70%;
+		margin: 10px auto;
+
+		h2{
+			text-align: center;
+			font-family: 'Pacifico', cursive;
+			font-size: 2em;
+			color: color(var(--main-brown) blackness(80%));
+
+		}
+
+		& .form__position{
+			margin-top: 1.6em;
+			margin-left: 2em;
+			border-radius: 5px;
+			padding: 10px 20px;
+			background-color: rgba(0, 0, 0, .2);
+			font-weight: 500;
+			color: #ffffff;
+		}
+		
+	}
+}
+@media (--medium-viewport){
+	.reservation {
+		position: absolute;
+		width: 70%;
+
+	}
+}

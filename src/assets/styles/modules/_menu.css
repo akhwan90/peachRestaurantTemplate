@@ -5,7 +5,9 @@
 
   &__mobile{
     background: var(--color-pallete);
-
+    @media (--medium-viewport){
+      display: none;
+    }
     &__icon {
       cursor:pointer;
       color: #fff;
@@ -38,7 +40,35 @@
         display:block;
       }
     }
+  }
 
+  &__sidebar{
+    display: none;
+    background-color: var(--color-pallete);
+    height: 100%;
+    width: 25%;
+    position: fixed;
+    right: 0;
+    @media (--medium-viewport){
+      display: block;
+      width: 30%;
+      //padding-right: 20px;
+    }
+    &__navigation{
+      padding: 0 10px;
+      width: 70%;
+      margin: 0 auto;
+      position: absolute;
+      top:20%;
+      left: 20%;
+      transform: translateY(-5%);
 
+      & .menu__logo img{
+        width: 100px;
+        height: 100px;
+        margin-bottom: 10px;
+
+      }
+    }
   }
 }

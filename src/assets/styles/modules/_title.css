@@ -34,3 +34,12 @@
 	}
 	
 }
+
+@media (--medium-viewport){
+	.title {
+		top:50%;
+		left: 0%;
+		transform: translateX(-10%) translateY(-55%);
+		width: 90%;
+	}
+}

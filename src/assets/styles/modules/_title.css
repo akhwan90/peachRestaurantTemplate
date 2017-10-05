@@ -1,63 +1,36 @@
-@import url('https://fonts.googleapis.com/css?family=Great+Vibes');
-/*font-family: 'Great Vibes', cursive;*/
-
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
-/*font-family: 'Roboto', sans-serif;*/
 .title{
-	position: relative;
-	height: 100vh;
-	max-width: 100%;
-	
-	&__intro{
-		position: absolute;
-		left:30%;
-		top:20%;
-		transform:translateX(-20%);
-		text-align: center;
-		font-family: 'Great Vibes', cursive;
-		&__main{
-			font-size: 1.6em;
-			color: var(--main-brown);
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-55%);
+	width: 90%;
+	//background-color: var(--testing-color);
 
+	&__intro{
+		text-align: center;
+		&__main{
+			font-family: var(--main-cursive);
+			font-size: 1em;
+			color:var(--main-brown);
 			text-shadow:
-			1px 5px 0 #85311B,
-			-1px -1px 0 #85311B,  
-			1px -1px 0 #85311B,
-			-1px 1px 0 #85311B,
-			1px 1px 0 #85311B;
+					 1px 5px 0 #85311B,
+					 -1px -1px 0 #85311B,
+					 1px -1px 0 #85311B,
+					 -1px 1px 0 #85311B,
+					 1px 1px 0 #85311B;
 		}
+
 		&__caption{
-			margin-top: 0.3em;
-			font-size: 5em;
+			margin-top: 1em;
+			font-family:var(--second-cursive);
+			font-size: 2em;
 			font-weight: 300;
 		}
 		&__subtitle{
-			font-size: 2.8em;
-
-			&--button{
-				cursor: pointer;
-				margin: 0 auto;
-				display: block;
-				width: 300px;
-				height: 50px;
-				background-color: color(var(--main-brown) alpha(70%));
-				border: 2px dashed #85311B;
-				margin-top: 10px;
-				border-radius: 8px;
-				font-size: .6em;
-				font-family: 'Great Vibes', cursive;
-				color: #000;
-
-
-				&:hover{
-					background-color: color( #000 alpha(80%)) ;
-					color: color(var(--main-brown) alpha(70%));
-					border: 1px dashed var(--main-brown);
-				};
-				
-				
-			}
+			font-family:var(--second-cursive);
+			font-size: 1.5rem;
 		}
 
 	}
+	
 }

@@ -2,9 +2,9 @@
 	<div id="app">
 		<div class="app__background">
 			<div class="grid__2">
-				<app-menu></app-menu>
+				 <app-menu></app-menu>
 			</div>
-			<div class="grid__8">
+			<div>
 				<app-page-content></app-page-content>
 			</div>
 		</div>

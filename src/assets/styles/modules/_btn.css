@@ -1,0 +1,24 @@
+.btn{
+    padding: 10px;
+    border-radius: 5px;
+    border:none;
+
+    &--journey{
+      display: block;
+    
+      width: 250px;
+      margin: 2em auto;
+      cursor: pointer;
+      background-color: color(var(--main-brown) alpha(70%));
+      border: 2px dashed #85311B;
+      border-radius: 8px;
+      font-size: .8em;
+      font-family: var(--second-cursive);
+
+      &:hover{
+        background-color: color( #000 alpha(80%)) ;
+        color: color(var(--main-brown) alpha(70%));
+        border: 2px dashed var(--main-brown);
+      }
+    }
+}

@@ -1,0 +1,42 @@
+.list{
+  width:90%;
+  margin: 0px auto;
+
+  &__items{
+    position:relative;
+    top:4.3em;
+
+    &__item{
+      width:80%;
+      margin:0 auto;
+
+      figure {
+        display:block;
+        position:relative;
+
+        img{
+          width: 100%;
+          display: block;
+          border-radius: 5px 5px 0 0;
+        }
+        figcaption{
+          position: absolute;
+          color: #fff;
+          padding: 10px 20px;
+        }
+        & .item__caption{
+          bottom: 0;
+          width:100%;
+          box-sizing: border-box;
+          text-align: center;
+          background: color(var(--color-pallete) alpha(70%));
+
+          h3{
+            font-family: var(--main-font);
+            font-weight: var(--font-weight-light);
+          }
+        }
+      }
+    }
+  }
+}

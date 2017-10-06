@@ -46,15 +46,6 @@ module.exports = {
       }
       ]
     },
-    plugins:[
-     new CopyWebpackPlugin([{
-      from: 'dist'
-    }]),
-    new PrerenderSpaPlugin(
-        path.join(__dirname, 'dist'),
-        [ '/', '/menu', '/dexperience', '/reservation','/location']
-      )
-    ],
     resolve: {
       alias: {
         'vue$': 'vue/dist/vue.esm.js'

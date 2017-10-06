@@ -11,9 +11,9 @@
 
     &__item{
       flex-basis: calc(100%/2 - .4em);
-      //width: calc(var(--image-size-max)/2);
+      /*//width: calc(var(--image-size-max)/2);*/
       transform: scale(.9);
-
+      cursor: pointer;
       figure{
         & img{
           width: 90%;
@@ -42,7 +42,7 @@
    &__item{
      flex-basis: 200px;
 
-     //flex-basis: calc(100%/3- .4em);
+     /*//flex-basis: calc(100%/3- .4em);*/
      & img{
         width: 100%;
 
@@ -68,7 +68,7 @@
     &__item{
       flex-basis: 250px;
 
-    //flex-basis: calc(100%/3- .4em);
+    /*//flex-basis: calc(100%/3- .4em);*/
       & img{
         width: 100%;
       }
@@ -102,7 +102,6 @@
     &__item{
       flex-basis: 250px;
 
-    //flex-basis: calc(100%/3- .4em);
       & img{
         width: 100%;
       }

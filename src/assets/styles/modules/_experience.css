@@ -11,14 +11,14 @@
     &__list{
       width: 200px;
       margin: 10px auto;
-
       figure {
+        cursor: pointer;
         & img{
-            width: 200px;
-            height: 175px;
-            border-radius: 5px;
-            filter: grayscale(40%);
-            transform: scale(.9);
+          width: 200px;
+          height: 175px;
+          border-radius: 5px;
+          filter: grayscale(40%);
+          transform: scale(.9);
 
           &:hover{
             filter: grayscale(0);
@@ -72,6 +72,13 @@
         right: 0;
         figure{
           display: flex;
+          & img {
+            width: 200px;
+          }
+          figcaption{
+            width: 70%;
+          }
+
         }
       }
     }

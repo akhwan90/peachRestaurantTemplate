@@ -1,6 +1,9 @@
-var path = require('path')
-var webpack = require('webpack')
+var path = require('path');
+var webpack = require('webpack');
+var ghpages = require('gh-pages');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
+var PrerenderSpaPlugin = require('prerender-spa-plugin');
+var CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
   entry: './src/main.js',
@@ -58,6 +61,7 @@ module.exports = {
     },
     devtool: '#eval-source-map'
   }
+
 
   if (process.env.NODE_ENV === 'production') {
     module.exports.devtool = '#source-map'

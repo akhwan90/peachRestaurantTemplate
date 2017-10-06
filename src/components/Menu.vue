@@ -16,9 +16,14 @@
 									 :to="{name:'menu'}">
 							<a>Our Menu</a>
 						</router-link>
-							<li><a>D'Experience</a></li>
-							<li><a>Reservation</a></li>
-							<li><a>Location</a></li>
+						<router-link tag="li"
+									 :to="{name:'dexperience'}">
+								<a>D' Experiences</a>
+						</router-link>
+						<router-link tag="li"
+									 :to="{name:'reservation'}">
+								<a>Reservation</a>
+						</router-link>	
 					</ul>
 					<!--</transition>-->
 				</nav>

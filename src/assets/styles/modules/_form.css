@@ -2,7 +2,7 @@ form{
 	font-family: 'Roboto', sans-serif;
 
 	& input{
-		margin-top: 5px;
+		margin-top: 3px;
 	}
 	& input[type="text"]{
 		display: block;
@@ -11,10 +11,10 @@ form{
 		border: none;
 	}
 	.form-set{
-		margin: 20px 0;
+		margin: 17px 0;
 	}
 	.form-control{
-		padding: 10px;
+		padding: 8px;
 	}
 
 	.btn{

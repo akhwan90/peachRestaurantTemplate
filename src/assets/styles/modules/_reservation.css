@@ -33,3 +33,29 @@
 
 	}
 }
+
+@media (width <= 450px){
+	.reservation {
+		&__fill{
+		/*max-width: 650px;*/
+		width: 90%;
+		/*margin: 10px auto;*/
+
+		h2{
+			display: none;
+		}
+
+		& .form__position{
+			margin-top: 3em;
+			margin-right: 2em;
+			border-radius: 5px;
+			/*padding: 10px 20px;*/
+			background-color: rgba(0, 0, 0, .2);
+			font-weight: 500;
+			color: #ffffff;
+		}
+		
+	}
+
+	}
+}
